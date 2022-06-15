@@ -6,8 +6,8 @@ from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentClo
 from tencentcloud.sms.v20210111 import sms_client, models
 def send_message(mobile,code):
     try:
-        SecretId = "AKIDpX4SeecVDn8G9nCMGvKVR8amiSxCE1cz"
-        SecretKey = "A8sMbaMtBDzWmna8TcXDiyzlIZaMs89w"
+        SecretId = ""
+        SecretKey = ""
         cred = credential.Credential(SecretId, SecretKey)
         httpProfile = HttpProfile()
         httpProfile.endpoint = "sms.tencentcloudapi.com"
